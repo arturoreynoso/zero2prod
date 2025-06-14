@@ -1,0 +1,65 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo lock file (keep for applications, ignore for libraries)
+# Cargo.lock
+
+# Environment files with secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# IDE end Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+logs/
+log/
+
+# Database files (if using local SQLite)
+*.db
+
+# SQL query cache (SQLX)
+.sqlx/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Runtime files
+*.pid
+*.sock
+*.yarn.lock
+
+# Docker volumes and data
+docker-data/
+volumes/
+
+# Test coverage
+tarpulin-report.html
+coverage/
+
+# Profiling and benchmarking
+*.prof
+criterion/
